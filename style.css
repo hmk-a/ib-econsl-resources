@@ -64,12 +64,13 @@ header p {
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
-    transition: background 0.3s ease;
+    transition: background 0.3s ease, transform 0.2s ease;
     text-align: center;
 }
 
 .button:hover {
     background: #8E24AA;
+    transform: translateY(-3px); 
 }
 
 footer {
