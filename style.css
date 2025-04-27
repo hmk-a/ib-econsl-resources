@@ -1,69 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 30px;
-    background: linear-gradient(to right, #e0f7fa, #ffffff); /* Light blue to white gradient */
+    background: linear-gradient(to right, #e0f7fa, #e1bee7);
     color: #333;
+    line-height: 1.6;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.container {
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    max-width: 900px;
-    margin: auto;
-}
-
-h1 {
+header {
+    background-color: #4A148C;
+    color: white;
     text-align: center;
-    color: #0077cc;
-    margin-bottom: 20px;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
-    margin-top: 40px;
-    color: #004c99;
-    border-bottom: 2px solid #0077cc;
-    padding-bottom: 5px;
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
 }
 
-li {
-    margin-bottom: 20px;
+.unit {
+    background: white;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.unit h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #6A1B9A;
 }
 
 .button-group {
-    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
 
 .button {
-    display: inline-block;
-    margin: 5px 10px 5px 0;
-    padding: 12px 20px;
-    background: linear-gradient(to right, #007bff, #0056b3);
+    background: #6A1B9A;
     color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
     text-decoration: none;
-    border-radius: 25px;
-    font-size: 14px;
     font-weight: bold;
-    transition: background 0.3s, transform 0.2s;
+    transition: background 0.3s ease;
+    text-align: center;
 }
 
 .button:hover {
-    background: linear-gradient(to right, #0056b3, #004080);
-    transform: scale(1.05);
+    background: #8E24AA;
 }
 
 footer {
     text-align: center;
-    margin-top: 50px;
-    font-size: 14px;
-    color: #777;
-    padding: 20px 0;
+    padding: 1rem;
+    margin-top: auto;
+    font-size: 0.9rem;
+    background-color: #4A148C;
+    color: white;
 }
