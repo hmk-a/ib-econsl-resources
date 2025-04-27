@@ -29,7 +29,7 @@ header h1 {
 }
 
 header p {
-    color: #1EC998; /* Dark gray for the phrase */
+    color: #1EC998; 
     font-size: 1.2rem;
     opacity: 0.9;
 }
