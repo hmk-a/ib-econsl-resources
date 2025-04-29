@@ -1,3 +1,4 @@
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -99,6 +100,7 @@ footer {
     animation: fadeIn 2s forwards, pulse 2s infinite;
 }
 
+/* Coming Soon Header */
 .coming-soon h2 {
     color: #e65100;
     margin-bottom: 1rem;
@@ -161,13 +163,18 @@ footer {
     }
 }
 
-.fade-in {
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-}
-
+/* Fade-in animation for elements */
 @keyframes fadeIn {
-    to {
+    0% {
+        opacity: 0;
+    }
+    100% {
         opacity: 1;
     }
 }
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
