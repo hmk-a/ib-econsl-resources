@@ -113,7 +113,7 @@ footer {
     margin-bottom: 0.8rem;
 }
 
-/* hourglass Animation */
+/* Hourglass Container */
 .hourglass-container {
     position: relative;
     margin: 1rem auto;
@@ -121,6 +121,7 @@ footer {
     width: 50px;
 }
 
+/* Hourglass Shape */
 .hourglass {
     width: 30px;
     height: 30px;
@@ -135,7 +136,7 @@ footer {
     animation: hourglass 1s infinite;
 }
 
-/* Hourglass animation */
+/* Hourglass Animation */
 @keyframes hourglass {
     0%, 100% {
         border-radius: 50%;
