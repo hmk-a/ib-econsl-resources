@@ -172,9 +172,3 @@ footer {
         opacity: 1;
     }
 }
-
-.fade-in {
-    opacity: 0;
-    animation: fadeIn 2s forwards;
-}
-
