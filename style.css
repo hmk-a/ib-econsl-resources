@@ -81,3 +81,27 @@ footer {
     background-color: #4A148C;
     color: white;
 }
+
+/* Coming Soon Section Styles */
+.coming-soon {
+    background: #fff3e0;
+    border: 2px dashed #ff9800;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.coming-soon h2 {
+    color: #e65100;
+    margin-bottom: 1rem;
+}
+
+.coming-soon p {
+    color: #5d4037;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
