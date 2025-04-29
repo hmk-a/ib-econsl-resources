@@ -123,27 +123,45 @@ footer {
 
 /* Hourglass Shape */
 .hourglass {
-    width: 30px;
-    height: 30px;
-    border: 5px solid #e65100;
-    border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 5px solid #e65100;
+    border-radius: 50%;
     transform: translate(-50%, -50%);
-    border-bottom-color: transparent;
-    border-top-color: transparent;
-    animation: hourglass 1s infinite;
+    animation: hourglass 1s infinite ease-in-out;
 }
 
-/* Hourglass Animation */
+.hourglass:before,
+.hourglass:after {
+    content: '';
+    position: absolute;
+    background-color: #e65100;
+    width: 5px;
+    height: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hourglass:before {
+    top: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.hourglass:after {
+    bottom: 0;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Hourglass animation */
 @keyframes hourglass {
     0%, 100% {
-        border-radius: 50%;
         transform: translate(-50%, -50%) rotate(0deg);
     }
     50% {
-        border-radius: 10%;
         transform: translate(-50%, -50%) rotate(180deg);
     }
 }
