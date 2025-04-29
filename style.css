@@ -23,13 +23,13 @@ header {
 }
 
 header h1 {
-    color: #ff6347; /* A bright color for the title (tomato red) */
+    color: #ff6347;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
 
 header p {
-    color: #1EC998; 
+    color: #1EC998;
     font-size: 1.2rem;
     opacity: 0.9;
 }
@@ -93,11 +93,14 @@ footer {
     max-width: 800px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
 }
 
 .coming-soon h2 {
     color: #e65100;
     margin-bottom: 1rem;
+    font-size: 2rem;
 }
 
 .coming-soon p {
