@@ -121,16 +121,27 @@ footer {
 }
 
 .hourglass {
-    width: 30px;
-    height: 30px;
+ 
+    width: 60px;
+    height: 60px;
+    background: #e65100;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 15px solid #e65100;
-    border-bottom: 15px solid #e65100;
+    transform: translate(-50%, -50%) rotate(0deg);
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+
+       
     animation: rotate-hourglass 1s infinite linear;
 }
 
