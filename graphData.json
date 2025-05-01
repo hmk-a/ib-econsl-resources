@@ -2360,7 +2360,7 @@
                 ],
                 "areas": [
                     {
-                        "name": "Consumer Benefit",
+                        "name": "Producer Benefit",
                         "vertices": [
                             [
                                 "p1",
@@ -2381,7 +2381,7 @@
                         ]
                     },
                     {
-                        "name": "Producer Benefit",
+                        "name": "Consumer Benefit",
                         "vertices": [
                             [
                                 "p2",

@@ -841,7 +841,7 @@ function checkArea(elements, userIntersections, correctIntersections, name, ctx)
         let nameInside = `${name} area is correctly filled`;
         let nameOutide = `${name} area is correctly contained`;
 
-        let scoreInside = colorPercentage > 20;
+        let scoreInside = colorPercentage > 40;
         let scoreOutside = totalOutside < 8000;
 
         const allAdjacentLines = [...new Set((correctIntersections).flat())];
