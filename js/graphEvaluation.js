@@ -8,9 +8,6 @@ $(document).ready(function () {
         console.log(Element.allElements);
 
         evaluateGraph(Element.allElements, currentGraph.criteria, ctx);
-        $('html,body').animate({
-            scrollTop: $("#evaluations-container").offset().top},
-            'slow');
     });
 });
 
