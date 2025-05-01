@@ -6152,7 +6152,7 @@
         {
             "name": "Increase in Supply of Fixed Currency (USD$ to Bds$)",
             "unit": "Global Economics",
-            "image": "images/graphs/Increased Supply of Fixed Currency (USD$ to Bds$).png",
+            "image": "images/graphs/Increased Supply of Fixed Currency (USD to Bds).png",
             "criteria": {
                 "axes": {
                     "xAxis": "Quantity (Bds$)",
@@ -6337,7 +6337,7 @@
         {
             "name": "Increase in Demand for Fixed Currency (USD$ to Bds$)",
             "unit": "Global Economics",
-            "image": "images/graphs/Increase in Demand For Fixed Currency (USD$ to Bds$).png",
+            "image": "images/graphs/Increase In Demand For Fixed Currency (USD$ to Bds$).png",
             "criteria": {
                 "axes": {
                     "xAxis": "Quantity (Bds$)",
