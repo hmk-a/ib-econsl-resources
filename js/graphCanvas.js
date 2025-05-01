@@ -1065,7 +1065,7 @@ $(document).ready(function () {
 
     const $navbar = $("#navbar");
 
-    $.getJSON("../json/graphData.json", function (data) {
+    $.getJSON("json/graphData.json", function (data) {
         allGraphs = data["graphs"];
 
         let lastUnit = null;
