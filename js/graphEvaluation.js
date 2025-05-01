@@ -464,40 +464,50 @@ function compareSlopes(line1, line2) {
     const slope1 = getSlope(line1);
     const slope2 = getSlope(line2);
 
+    console.log("comparing slopes:")
+    console.log(line1);
+    console.log(line2);
+    console.log(slope1);
+    console.log(slope2);
+
     if (slope1 === Infinity && slope2 === Infinity) {
         return true;
     }
 
-    if (slope1 === Infinity) {
-        return (Math.abs(slope2) > 50);
-    } else if (slope2 === Infinity) {
-        return Math.abs(slope1) > 50;
+    if (Math.abs(slope1) > 40 && Math.abs(slope2) > 40) {
+        return true;
     }
 
-    let lx1 = (line1.x1 > line1.x2) ? line1.x1 : line1.x2;
-    let ly1 = (line1.x1 > line1.x2) ? line1.y1 : line1.y2;
+    let lx1 = (line1.x1 < line1.x2) ? line1.x1 : line1.x2;
+    let ly1 = (line1.x1 < line1.x2) ? line1.y1 : line1.y2;
 
-    let rx1 = (line1.x1 < line1.x2) ? line1.x1 : line1.x2;
-    let ry1 = (line1.x1 < line1.x2) ? line1.y1 : line1.y2;
+    let rx1 = (line1.x1 < line1.x2) ? line1.x2 : line1.x1;
+    let ry1 = (line1.x1 < line1.x2) ? line1.y2 : line1.y1;
 
-    let lx2 = (line2.x1 > line2.x2) ? line2.x1 : line2.x2;
-    let ly2 = (line2.x1 > line2.x2) ? line2.y1 : line2.y2;
+    let lx2 = (line2.x1 < line2.x2) ? line2.x1 : line2.x2;
+    let ly2 = (line2.x1 < line2.x2) ? line2.y1 : line2.y2;
 
-    let rx2 = (line2.x1 < line2.x2) ? line2.x1 : line2.x2;
-    let ry2 = (line2.x1 < line2.x2) ? line2.y1 : line2.y2;
+    let rx2 = (line2.x1 < line2.x2) ? line2.x2 : line2.x1;
+    let ry2 = (line2.x1 < line2.x2) ? line2.y2 : line2.y1;
 
     function calculateAngle(x1, y1, x2, y2) {
         // Calculate the angle in radians using Math.atan2
         return Math.atan2(y2 - y1, x2 - x1);
     }
 
-    a1 = calculateAngle((rx1 - lx1), (ry1 - ly1));
-    a2 = calculateAngle((rx2 - lx2), (ry2 - ly2));
+    let a1 = calculateAngle((rx1 - lx1), (ry1 - ly1));
+    let a2 = calculateAngle((rx2 - lx2), (ry2 - ly2));
+
+    console.log(a1);
+    console.log(a2);
 
     const thresholdAngle = 0.261799;
     const thresholdSlope = 0.3;
 
-    return Math.abs(a1 - a2) <= thresholdAngle || Math.abs(slope1 - slope2) < thresholdSlope;
+    const result = Math.abs(a1 - a2) <= thresholdAngle || Math.abs(slope1 - slope2) < thresholdSlope;
+    console.log(result);
+    console.log("")
+    return result;
 }
 
 function calculateIntersection(line1, line2) {
@@ -646,8 +656,8 @@ function isPointOnSegment(px, py, line) {
     const minY = Math.min(line.y1, line.y2);
     const maxY = Math.max(line.y1, line.y2);
 
-    const buffer = 10; // allow small floating point error
-    return px >= minX - buffer && px <= maxX + buffer && py >= minY - buffer && py <= maxY + buffer;
+    const threshold = 15; // allow small floating point error
+    return px >= minX - threshold && px <= maxX + threshold && py >= minY - threshold && py <= maxY + threshold;
 }
 
 function findElementBySpecialTag(elements, specialTag) {
