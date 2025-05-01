@@ -1050,6 +1050,7 @@ $(document).ready(function () {
     function clearGraph() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         Element.allElements = [];
+        Line.lineCount = 0;
         initiateGraph();
         drawElements();
         Area.allAreas = [];
