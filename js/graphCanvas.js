@@ -1065,7 +1065,7 @@ $(document).ready(function () {
 
     const $navbar = $("#navbar");
 
-    $.getJSON("ib-econsl-resources/json/graphData.json", function (data) {
+    $.getJSON("graphData.json", function (data) {
         allGraphs = data["graphs"];
 
         let lastUnit = null;
