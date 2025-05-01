@@ -1253,7 +1253,7 @@
         {
             "name": "Excess Demand / Shortage",
             "unit": "Microeconomics",
-            "image": "images/graphs/Excess Demand - Shortage.jpeg",
+            "image": "images/graphs/Excess Demand - Shortage.png",
             "criteria": {
                 "axes": {
                     "xAxis": "quantity ()",
@@ -1463,7 +1463,7 @@
         {
             "name": "Consumer Surplus",
             "unit": "Microeconomics",
-            "image": "images/graphs/Consumer Surplus.jpeg",
+            "image": "images/graphs/Consumer Surplus.png",
             "criteria": {
                 "axes": {
                     "xAxis": "quantity ()",
@@ -1569,7 +1569,7 @@
         {
             "name": "Producer Surplus",
             "unit": "Microeconomics",
-            "image": "images/graphs/Producer Surplus.jpeg",
+            "image": "images/graphs/Producer Surplus.jpg",
             "criteria": {
                 "axes": {
                     "xAxis": "quantity ()",
@@ -1675,7 +1675,7 @@
         {
             "name": "Community Surplus",
             "unit": "Microeconomics",
-            "image": "images/graphs/Community Surplus.jpeg",
+            "image": "images/graphs/Community Surplus.png",
             "criteria": {
                 "axes": {
                     "xAxis": "quantity ()",
@@ -1820,7 +1820,7 @@
         {
             "name": "Demand/Supply of a Commodity",
             "unit": "Microeconomics",
-            "image": "images/graphs/Demand and Supply of a Commodity.jpeg",
+            "image": "images/graphs/Demand and Supply of a Commodity.png",
             "criteria": {
                 "axes": {
                     "xAxis": "quantity ()",
@@ -2407,7 +2407,7 @@
         {
             "name": "Price Ceiling",
             "unit": "Microeconomics",
-            "image": "images/graphs/Price Ceiling.jpeg",
+            "image": "images/graphs/Price Ceiling.jpg",
             "criteria": {
                 "axes": {
                     "xAxis": "quantity ()",
@@ -3005,7 +3005,7 @@
         {
             "name": "Negative Externality of Production",
             "unit": "Microeconomics",
-            "image": "images/graphs/Negative Externality of Production.jpeg",
+            "image": "images/graphs/Negative Externality of Production.png",
             "criteria": {
                 "axes": {
                     "xAxis": "quantity ()",
@@ -3189,7 +3189,7 @@
         {
             "name": "Positive Externality of Production",
             "unit": "Microeconomics",
-            "image": "images/graphs/Positive Externality of Production.jpeg",
+            "image": "images/graphs/Positive Externality of Production.png",
             "criteria": {
                 "axes": {
                     "xAxis": "quantity ()",
@@ -3375,7 +3375,7 @@
         {
             "name": "Negative Externality of Consumption",
             "unit": "Microeconomics",
-            "image": "images/graphs/Negative Externality of Consumption.jpeg",
+            "image": "images/graphs/Negative Externality of Consumption.png",
             "criteria": {
                 "axes": {
                     "xAxis": "quantity ()",
@@ -3561,7 +3561,7 @@
         {
             "name": "Positive Externality of Consumption",
             "unit": "Microeconomics",
-            "image": "images/graphs/Positive Externality of Consumption.jpeg",
+            "image": "images/graphs/Positive Externality of Consumption.jpg",
             "criteria": {
                 "axes": {
                     "xAxis": "quantity ()",
@@ -3745,7 +3745,7 @@
         {
             "name": "Aggregate Demand Curve",
             "unit": "Macroeconomics",
-            "image": "images/graphs/Aggregate Demand Curve.jpeg",
+            "image": "images/graphs/Aggregate Demand Curve.png",
             "criteria": {
                 "axes": {
                     "xAxis": "Real GDP",
@@ -3818,7 +3818,7 @@
         {
             "name": "Short-Run Aggregate Supply Curve",
             "unit": "Macroeconomics",
-            "image": "images/graphs/Short Run Aggregate Supply Curve.jpeg",
+            "image": "images/graphs/Short Run Aggregate Supply Curve.jpg",
             "criteria": {
                 "axes": {
                     "xAxis": "Real GDP",
@@ -3893,7 +3893,7 @@
         {
             "name": "Long-Run Equilibrium / Full Employment",
             "unit": "Macroeconomics",
-            "image": "images/graphs/Long-Run Equilibrium - Full Employment.jpeg",
+            "image": "images/graphs/Long-Run Equilibrium - Full Employment.png",
             "criteria": {
                 "axes": {
                     "xAxis": "Real GDP",
@@ -3975,7 +3975,7 @@
         {
             "name": "Recessionary Gap",
             "unit": "Macroeconomics",
-            "image": "images/graphs/Recessionary Gap.jpeg",
+            "image": "images/graphs/Recessionary Gap.jpg",
             "criteria": {
                 "axes": {
                     "xAxis": "Real GDP",
@@ -4100,7 +4100,7 @@
         {
             "name": "Inflationary Gap",
             "unit": "Macroeconomics",
-            "image": "images/graphs/Inflationary Gap.jpeg",
+            "image": "images/graphs/Inflationary Gap.png",
             "criteria": {
                 "axes": {
                     "xAxis": "Real GDP",
@@ -4225,7 +4225,7 @@
         {
             "name": "Equilibrium in the Labour Market",
             "unit": "Macroeconomics",
-            "image": "images/graphs/Equilibrium in the Labour Market.jpeg",
+            "image": "images/graphs/Equilibrium in the Labour Market.png",
             "criteria": {
                 "axes": {
                     "xAxis": "Quantity (Workers)",
@@ -4310,7 +4310,7 @@
         {
             "name": "Real-Wage Unemployment",
             "unit": "Macroeconomics",
-            "image": "images/graphs/Real-Wage Unemployment.jpeg",
+            "image": "images/graphs/Real-Wage Unemployment.jpg",
             "criteria": {
                 "axes": {
                     "xAxis": "Quantity (Workers)",
@@ -4518,7 +4518,7 @@
         {
             "name": "Demand-Deficient Unemployment",
             "unit": "Macroeconomics",
-            "image": "images/graphs/Demand-Deficient Unemployment.jpeg",
+            "image": "images/graphs/Demand-Deficient Unemployment.png",
             "criteria": {
                 "axes": {
                     "xAxis": "Quantity (Workers)",
@@ -4709,7 +4709,7 @@
         {
             "name": "Demand-Pull Inflation",
             "unit": "Macroeconomics",
-            "image": "images/graphs/Demand-Pull Inflation.jpeg",
+            "image": "images/graphs/Demand-Pull Inflation.jpg",
             "criteria": {
                 "axes": {
                     "xAxis": "Real GDP",
@@ -4872,7 +4872,7 @@
         {
             "name": "Cost-Push Inflation",
             "unit": "Macroeconomics",
-            "image": "images/graphs/Cost-Push Inflation.jpeg",
+            "image": "images/graphs/Cost-Push Inflation.png",
             "criteria": {
                 "axes": {
                     "xAxis": "Real GDP",
@@ -5819,7 +5819,7 @@
         {
             "name": "Protective Quota",
             "unit": "Global Economics",
-            "image": "images/graphs/Protective Quota.jpeg",
+            "image": "images/graphs/Protective Quota.jpg",
             "criteria": {
                 "axes": {
                     "xAxis": "Quantity ()",
@@ -6152,7 +6152,7 @@
         {
             "name": "Increase in Supply of Fixed Currency (USD$ to Bds$)",
             "unit": "Global Economics",
-            "image": "images/graphs/Increased Supply of Fixed Currency (USD$ to Bds$).jpeg",
+            "image": "images/graphs/Increased Supply of Fixed Currency (USD$ to Bds$).png",
             "criteria": {
                 "axes": {
                     "xAxis": "Quantity (Bds$)",
