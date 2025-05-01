@@ -1,0 +1,42 @@
+{
+    "graphs": [
+        {
+            "name": "Protective Subsidy / Cost-Push Inflation / etc.",
+            "unit": "Microeconomic / Macroeconomics / Global Economics",
+            "criteria": {
+                "axes": {
+                    "xAxis": "Quantity [good] / Real GDP / etc.",
+                    "yAxis": "Price ($) / Price Level / etc."
+                },
+                "lines": [
+                    {
+                        "name": "AD / SRAS / D / S / etc.",
+                        "slope": {
+                            "steepness": "steep / shallow / vertical / horizontal",
+                            "sign": "positive / negative"
+                        }
+                    },
+                    {
+                        "name": "AD / SRAS / D / S / etc.",
+                        "slope": {
+                            "steepness": "steep / shallow / vertical / horizontal",
+                            "sign": "positive / negative"
+                        }
+                    }
+                ],
+                "intersections": [
+                    {
+                        "lines": [
+                            "D",
+                            "S"
+                        ]
+                    },
+                    {
+                        "name1": "D",
+                        "name2": "xAxis"
+                    }
+                ]
+            }
+        }
+    ]
+}

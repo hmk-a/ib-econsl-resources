@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB Econ Graphs</title>
+    <link rel="icon" type="image/x-icon" href="/images/IB Logo.png">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="made-by-banner">
+        Made by Noah & Kaan
+    </div>
+
+    <h1>IB Econ SL Diagram Practice</h1>
+    <h2>Fullscreen recommended</h2>
+
+    <nav id="navbar">
+        <div id="navbar-top"></div>
+        <button onclick="window.location.href='/'">Home</button>
+        <button onclick="window.location.href='/instructions'">How to Use</button>
+        <button id="random-graph-btn">Random Graph</button>
+    </nav>
+
+
+    <div id="title-container">
+        <h1>IB Economics Graphing Tool</h1>
+        <h2>Draw, Evaluate, and Learn Key Diagrams</h2>
+    </div>
+
+    <div class="popup-container" onclick="closeGalleryPopup(this)">
+        <div class="popup-content">
+            <button class="popup-close-button" onclick="closeGalleryPopup()">
+                ×
+            </button>
+            <img class="gallery-popup-photo" />
+            <div class="gallery-popup-desc">
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="graph-container">
+        <div id="graph-canvas-container">
+            <canvas id="graph-canvas"></canvas>
+        </div>
+        <div id="color-container">
+            <button class="color-btn" data-color="#faa9a9" style="background-color: #faa9a9;"></button>
+            <button class="color-btn" data-color="#abe0ab" style="background-color: #abe0ab;"></button>
+            <button class="color-btn" data-color="#9090df" style="background-color: #9090df;"></button>
+            <button class="color-btn" data-color="#f0d39d" style="background-color: #f0d39d;"></button>
+            <button class="color-btn" data-color="#ddaddd" style="background-color: #ddaddd;"></button>
+        </div>
+
+        <div id="graph-ui-container">
+            <button id="mode-drag">Drag</button>
+            <button id="mode-line">Line</button>
+            <button id="mode-dotted">Dotted Line</button>
+            <button id="mode-arrow">Arrow</button>
+            <button id="mode-point">Point</button>
+            <button id="mode-area">Area</button>
+            <button id="mode-label">Rename</button>
+            <button id="mode-delete">Delete</button>
+            <!-- <button id="undo-delete">Undo Delete</button> -->
+            <button id="clear-btn">Clear</button>
+
+        </div>
+    </div>
+
+    <div id="bottom-btn-container">
+        <button class="bottom-btn" id="evaluate-btn">Evaluate Graph</button>
+        <button class="bottom-btn" id="show-graph-btn">Show Solution</button>
+    </div>
+
+    <div id="evaluations-container">
+    </div>
+
+    <script src="/js/graphCanvas.js"></script>
+    <script src="/js/graphEvaluation.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/popup.js"></script>
+
+</body>
+
+</html>

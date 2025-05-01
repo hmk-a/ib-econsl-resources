@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>How to Use the IB Econ Graph Tool</title>
+    <link rel="stylesheet" href="/css/style-help.css">
+
+    <link rel="icon" href="/images/IB Logo.png" type="image/png">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9fb;
+            color: #2e2e2e;
+            line-height: 1.6;
+        }
+
+        #main-content {
+            max-width: 850px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            color: #003366;
+            font-size: 1.5rem;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.7rem;
+        }
+
+        .tip-box {
+            background-color: #eef7ff;
+            border-left: 5px solid #3399ff;
+            padding: 1rem;
+            margin-top: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .mode-icon {
+            font-weight: bold;
+            color: #006699;
+        }
+
+        nav#navbar {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background-color: #003366;
+            padding: 1rem;
+        }
+
+        nav#navbar button {
+            background: #ffffff;
+            color: #003366;
+            padding: 0.6rem 1.2rem;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s ease;
+        }
+
+        nav#navbar button:hover {
+            background: #3399ff;
+            color: white;
+        }
+
+        nav#navbar .active {
+            background: #3399ff;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <button onclick="window.location.href='/'">🏠 Home</button>
+        <button class="active">📘 How to Use</button>
+    </nav>
+
+    <div id="main-content">
+        <h1>📊 How to Use the Graphing Tool</h1>
+        <p style="text-align: center; font-size: 1.1rem;">
+            This interactive tool helps you draw and label diagrams for IB Economics Paper 1 and 2 with precision.
+        </p>
+
+        <h2>🎛️ Modes</h2>
+        <ul>
+            <li><span class="mode-icon"> Drag:</span> Move existing items, including axis labels</li>
+            <li><span class="mode-icon"> Line:</span> Draw solid straight lines (e.g., S, D, LRAS)</li>
+            <li><span class="mode-icon"> Dotted Line:</span> Add visual guide lines (comes with labels like P1, Q1)</li>
+            <li><span class="mode-icon"> Arrow:</span> Optional — Indicate shifts or movements</li>
+            <li><span class="mode-icon"> Point:</span> Optional — use for equilibrium or intersections</li>
+            <li><span class="mode-icon"> Area:</span> Shade areas like surplus, deadweight loss, or tax revenue.</li>
+            <li><span class="mode-icon"> Rename:</span> Click a label to change an object's name</li>
+            <li><span class="mode-icon"> Delete:</span> Remove the selected item</li>
+            <!-- <li><span class="mode-icon">↩ Undo:</span> Restore your last deleted item</li> -->
+            <li><span class="mode-icon"> Clear:</span> Reset the entire canvas</li>
+        </ul>
+
+        <h2>🏷️ Labeling Guide</h2>
+        <p>Use standard IB terms — not case-sensitive:</p>
+        <ul>
+            <li><strong>Axes:</strong> <code>Price ($)</code>, <code>Quantity (of ____)</code>, <code>Real GDP</code>,
+                <code>Price Level</code>
+            </li>
+            <li><strong>Lines:</strong> <code>D</code>, <code>S</code>, <code>LRAS</code>, <code>SRAS</code>,
+                <code>AD</code>, <code>MSC</code>, <code>MPB</code>, etc.
+            </li>
+            <li><strong>Points:</strong> Used for guidance only, not assessed</li>
+            <li><strong>Dotted-line labels:</strong> <code>P</code>, <code>P1</code>, <code>Q</code>, <code>Q1</code>,
+                <code>Y</code>, <code>Y1</code>, etc.
+            </li>
+        </ul>
+
+        <div class="tip-box">
+            <strong>📌 Remember:</strong> Currency depcreciates <i>AGAINST</i> another currency!!!
+        </div>
+    </div>
+</body>
+
+</html>
