@@ -84,8 +84,8 @@ footer {
 
 
 .coming-soon {
-    background: #fff3e0;
-    border: 2px dashed #ff9800;
+    background: white;
+    border: 2px solid #ff9800;
     margin: 2rem auto;
     padding: 2rem;
     border-radius: 15px;
